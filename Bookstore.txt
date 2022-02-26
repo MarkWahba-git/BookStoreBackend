@@ -1,0 +1,37 @@
+>>ReadMe
+#Simple Bookstore web application 
+
+#Backend Repo:
+- https://github.com/Verina-wasfy/BookStoreBackend
+
+#Frontend Repo:
+- https://github.com/Verina-wasfy/BookStoreFrontend
+
+#Set up environment:
+ -If you want to run the application on your localhost after cloning the 2 Repos
+*For the backend you need:
+	1-Change the connection string in the “appsettings.json”.
+   	2-In the package manager console please write "update-database".
+*For the frontend you need:
+	1- Please write in the terminal window “npm i”.
+Design Overview
+* System Architecture:
+In the below diagram you will find the System Architecture Design of the
+application. It consists of 3 main tiers and the persistent database.
+1. Presentation Tier:
+The Angular application that the user interacts with, Data and request are being sent to
+and from this tier.
+2. Application Tier:
+The .Net Core, data is being sent to the next Tier in order to be stored in the persistent Database.
+3. Data Management Tier:
+I used ADO.
+4. Database Tier:
+By using this independent system architecture we can change the technology of any tier
+without affecting other tiers we used SQL server...
+
+* Backend:
+In the web application the backend is written with .Net core 5.
+* Frontend:
+In the web application the frontend is written with Angular.
+* Project Database:
+
